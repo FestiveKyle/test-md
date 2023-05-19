@@ -1,27 +1,5 @@
--   [Cloud Guardrails](#cloud-guardrails)
-    -   [Guardrail #1 – Protect user accounts and identities
-        ](#guardrail-1-protect-user-accounts-and-identities)
-    -   [Guardrail #2 – Manage access](#guardrail-2-manage-access)
-    -   [Guardrail #3 – Secure endpoints](#guardrail-3-secure-endpoints)
-    -   [Guardrail #4 – Enterprise monitoring
-        accounts](#guardrail-4-enterprise-monitoring-accounts)
-    -   [Guardrail #5 – Data location](#guardrail-5-data-location)
-    -   [Guardrail #6 – Protection of data-at-rest
-        ](#guardrail-6-protection-of-data-at-rest)
-    -   [Guardrail #7 – Protection of
-        data-in-transit](#guardrail-7-protection-of-data-in-transit)
-    -   [**Guardrail** #8 – Segment and
-        separate](#guardrail-8-segment-and-separate)
-    -   [Guardrail #9 – Network security
-        services](#guardrail-9-network-security-services)
-    -   [Guardrail #10 – Cyber defense
-        services](#guardrail-10-cyber-defense-services)
-    -   [Guardrail #11 – Logging and
-        monitoring](#guardrail-11-logging-and-monitoring)
-    -   [Guardrail #12 – Configuration of cloud
-        marketplaces](#guardrail-12-configuration-of-cloud-marketplaces)
-    -   [Guardrail #13 – Plan for continuity
-        ](#guardrail-13-plan-for-continuity)
+* TOC
+* {:toc}
 
 # Cloud Guardrails
 
