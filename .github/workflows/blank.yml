@@ -34,8 +34,8 @@ jobs:
       run: |
         git config --global user.email "no-reply@github.com"
         git config --global user.name "GitHub Actions"
-        git add docs/Guardrails.md
-        git commit -m "Update Guardrails.md"
+        git add docs/README.md
+        git commit -m "Update docs/README.md"
         git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
         git push
       env:
