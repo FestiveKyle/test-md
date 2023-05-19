@@ -23,7 +23,11 @@ jobs:
       if: steps.filter.outputs.build_md == 'true'
       uses: docker://pandoc/core:2.9
       with:
-        args: "--from docx --to markdown --standalone --no-highlight --output=docs/Guardrails.md Test.docx"
+        args: "--from docx --to markdown --standalone --no-highlight --output=docs/README.md Test.docx"
+    - name: Add TOC
+      run: |
+        cd docs
+        echo "* TOC\n{:toc}\n" | cat - README.md > temp && mv temp README.md
         
     - name: Commit changes
       if: steps.filter.outputs.build_md == 'true'
