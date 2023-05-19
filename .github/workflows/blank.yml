@@ -27,7 +27,7 @@ jobs:
     - name: Add TOC
       run: |
         cd docs
-        echo -e "* TOC\n{:toc}\n" | cat - README.md > temp && mv temp README.md
+        cat ../toc-header.txt README.md > temp && mv temp README.md
         
     - name: Commit changes
       if: steps.filter.outputs.build_md == 'true'
