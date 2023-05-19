@@ -1,0 +1,38 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the workflow will run
+on: [push, pull_request, workflow_dispatch]
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: dorny/paths-filter@v2
+      id: filter
+      with:
+        filters: |
+          build_md:
+            - 'Test.docx'
+
+    # run only if 'Test.docx' files were changed
+    - name: build-md
+      if: steps.filter.outputs.build_md == 'true'
+      uses: docker://pandoc/core:2.9
+      with:
+        args: "--from docx --to markdown --standalone --no-highlight --output=docs/Guardrails.md"
+        
+    - name: Commit changes
+      if: steps.filter.outputs.build_md == 'true'
+      run: |
+        git config --global user.email "no-reply@github.com"
+        git config --global user.name "GitHub Actions"
+        git add docs/Guardrails.md
+        git commit -m "Update Guardrails.md"
+        git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}# gets appended to pandoc command
