@@ -1,27 +1,27 @@
--   [Cloud Guardrails](#cloud-guardrails)
-    -   [Guardrail #1 – Protect user accounts and identities
-        ](#guardrail-1-protect-user-accounts-and-identities)
-    -   [Guardrail #2 – Manage access](#guardrail-2-manage-access)
-    -   [Guardrail #3 – Secure endpoints](#guardrail-3-secure-endpoints)
-    -   [Guardrail #4 – Enterprise monitoring
-        accounts](#guardrail-4-enterprise-monitoring-accounts)
-    -   [Guardrail #5 – Data location](#guardrail-5-data-location)
-    -   [Guardrail #6 – Protection of data-at-rest
-        ](#guardrail-6-protection-of-data-at-rest)
-    -   [Guardrail #7 – Protection of
-        data-in-transit](#guardrail-7-protection-of-data-in-transit)
-    -   [**Guardrail** #8 – Segment and
-        separate](#guardrail-8-segment-and-separate)
-    -   [Guardrail #9 – Network security
-        services](#guardrail-9-network-security-services)
-    -   [Guardrail #10 – Cyber defense
-        services](#guardrail-10-cyber-defense-services)
-    -   [Guardrail #11 – Logging and
-        monitoring](#guardrail-11-logging-and-monitoring)
-    -   [Guardrail #12 – Configuration of cloud
-        marketplaces](#guardrail-12-configuration-of-cloud-marketplaces)
-    -   [Guardrail #13 – Plan for continuity
-        ](#guardrail-13-plan-for-continuity)
+- [Cloud Guardrails](#cloud-guardrails)
+  - [Guardrail \#1 – Protect user accounts and identities
+    ](#guardrail-1-protect-user-accounts-and-identities)
+  - [Guardrail \#2 – Manage access](#guardrail-2-manage-access)
+  - [Guardrail \#3 – Secure endpoints](#guardrail-3-secure-endpoints)
+  - [Guardrail \#4 – Enterprise monitoring
+    accounts](#guardrail-4-enterprise-monitoring-accounts)
+  - [Guardrail \#5 – Data location](#guardrail-5-data-location)
+  - [Guardrail \#6 – Protection of data-at-rest
+    ](#guardrail-6-protection-of-data-at-rest)
+  - [Guardrail \#7 – Protection of
+    data-in-transit](#guardrail-7-protection-of-data-in-transit)
+  - [**Guardrail** \#8 – Segment and
+    separate](#guardrail-8-segment-and-separate)
+  - [Guardrail \#9 – Network security
+    services](#guardrail-9-network-security-services)
+  - [Guardrail \#10 – Cyber defense
+    services](#guardrail-10-cyber-defense-services)
+  - [Guardrail \#11 – Logging and
+    monitoring](#guardrail-11-logging-and-monitoring)
+  - [Guardrail \#12 – Configuration of cloud
+    marketplaces](#guardrail-12-configuration-of-cloud-marketplaces)
+  - [Guardrail \#13 – Plan for continuity
+    ](#guardrail-13-plan-for-continuity)
 
 # Cloud Guardrails
 
@@ -40,20 +40,19 @@ has been developed to support this activity.
 
 For this document the following definitions will be used:
 
--   Mandatory requirements: A set of baseline security controls that
-    > departments must implement, validate, and report on in the first
-    > 30 business days.
+- Mandatory requirements: A set of baseline security controls that
+  > departments must implement, validate, and report on in the first 30
+  > business days.
 
 <!-- -->
 
--   Additional considerations: Additional security controls that are
-    > highly recommended and should be taken into consideration. While
-    > these are not expected to be implemented within 30 business days,
-    > they include best practices that should be considered as
-    > departments progress with the establishment of their cloud-based
-    > environments.
+- Additional considerations: Additional security controls that are
+  > highly recommended and should be taken into consideration. While
+  > these are not expected to be implemented within 30 business days,
+  > they include best practices that should be considered as departments
+  > progress with the establishment of their cloud-based environments.
 
-## Guardrail #1 – Protect user accounts and identities 
+## Guardrail \#1 – Protect user accounts and identities 
 
 <table>
 <colgroup>
@@ -184,7 +183,7 @@ CM-5.</p></td>
 </tbody>
 </table>
 
-## Guardrail #2 – Manage access
+## Guardrail \#2 – Manage access
 
 <table>
 <colgroup>
@@ -421,7 +420,7 @@ IA‑2(1), IA‑2(8), IA‑2(11), IA‑4, IA‑5, IA‑5(1), IA‑5(6)</td>
 </tbody>
 </table>
 
-## Guardrail #3 – Secure endpoints
+## Guardrail \#3 – Secure endpoints
 
 <table>
 <colgroup>
@@ -513,7 +512,7 @@ IA2(1),IA2(11), IA4, IA5, IA5(1), SI-4, AU-6, AU-12</td>
 </tbody>
 </table>
 
-## Guardrail #4 – Enterprise monitoring accounts
+## Guardrail \#4 – Enterprise monitoring accounts
 
 <table>
 <colgroup>
@@ -581,7 +580,7 @@ AC-6(5), IA-2(1)</td>
 </tbody>
 </table>
 
-## Guardrail #5 – Data location
+## Guardrail \#5 – Data location
 
 <table>
 <colgroup>
@@ -643,7 +642,7 @@ on Service and Digita</a>l, subsection 4.4.3.14</p></li>
 </tbody>
 </table>
 
-## Guardrail #6 – Protection of data-at-rest 
+## Guardrail \#6 – Protection of data-at-rest 
 
 <table>
 <colgroup>
@@ -747,7 +746,7 @@ SC-13, SC-28, SC-28(1)</td>
 </tbody>
 </table>
 
-## Guardrail #7 – Protection of data-in-transit
+## Guardrail \#7 – Protection of data-in-transit
 
 <table>
 <colgroup>
@@ -857,7 +856,7 @@ SC-13, SC-28, SC-28(1)</td>
 </tbody>
 </table>
 
-## **Guardrail** #8 – Segment and separate
+## **Guardrail** \#8 – Segment and separate
 
 <table>
 <colgroup>
@@ -946,7 +945,7 @@ SC‑7</td>
 </tbody>
 </table>
 
-## Guardrail #9 – Network security services
+## Guardrail \#9 – Network security services
 
 <table>
 <colgroup>
@@ -1047,7 +1046,7 @@ SC‑7, SC‑7(5), SI-4, SI-4(18)</td>
 </tbody>
 </table>
 
-## Guardrail #10 – Cyber defense services
+## Guardrail \#10 – Cyber defense services
 
 <table>
 <colgroup>
@@ -1110,7 +1109,7 @@ subsection 6.3</p></li>
 </tbody>
 </table>
 
-## Guardrail #11 – Logging and monitoring
+## Guardrail \#11 – Logging and monitoring
 
 <table>
 <colgroup>
@@ -1222,7 +1221,7 @@ SI-4(7)</td>
 </tbody>
 </table>
 
-## Guardrail #12 – Configuration of cloud marketplaces
+## Guardrail \#12 – Configuration of cloud marketplaces
 
 <table>
 <colgroup>
@@ -1287,7 +1286,7 @@ SA‑12</td>
 </tbody>
 </table>
 
-## Guardrail #13 – Plan for continuity 
+## Guardrail \#13 – Plan for continuity 
 
 <table>
 <colgroup>
