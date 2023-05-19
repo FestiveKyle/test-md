@@ -1,5 +1,5 @@
 * TOC
-* {:toc}
+{:toc}
 
 # Cloud Guardrails
 
