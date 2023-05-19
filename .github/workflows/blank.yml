@@ -23,7 +23,7 @@ jobs:
       if: steps.filter.outputs.build_md == 'true'
       uses: docker://pandoc/core:2.9
       with:
-        args: "--from docx --to markdown --standalone --no-highlight --output=docs/Guardrails.md"
+        args: "--from docx --to markdown --standalone --no-highlight --output=docs/Guardrails.md Test.docx"
         
     - name: Commit changes
       if: steps.filter.outputs.build_md == 'true'
