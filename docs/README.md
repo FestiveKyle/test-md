@@ -1,4 +1,6 @@
-* TOC\n{:toc}\n
+* TOC
+{:toc}
+
 Cloud Guardrails
 ================
 
